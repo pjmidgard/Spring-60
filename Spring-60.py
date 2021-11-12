@@ -5,7 +5,7 @@ import os
 import binascii
 import math
 
-#Algorithm DAMA
+#Algorithm BAMA
 
 zaax=""
 szxzzzas=""
