@@ -2085,6 +2085,8 @@ class compression:
                                                 jls=jl
                                                 x2 = time()
                                                 x3 = x2-x
+                                                return print(x3) 
+                                                
 
                                       
 
