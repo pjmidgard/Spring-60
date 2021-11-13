@@ -1365,6 +1365,9 @@ class compression:
 
                                     if lenfFE!=96:
                                         raise SystemExit 
+                                    if N2!=0:
+                                        raise SystemExit
+
                                               
                                     sda6=sda4
                                     sda4=""
