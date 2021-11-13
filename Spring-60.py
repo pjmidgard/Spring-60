@@ -1307,7 +1307,7 @@ class compression:
                                     
                                    
 
-                                    while N2!=0 or lenfS>=(lenf7-12)*8 or lenfFE!=96:
+                                    while N2!=0 or lenfS>(lenf7-12)*8 or lenfFE!=96:
                                         
 
                                         
