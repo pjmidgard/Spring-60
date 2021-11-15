@@ -1303,7 +1303,7 @@ class compression:
                                                          
                                            if sda12[0:2]=="11":
 
-                                                         sda10=sda3[ei:ei+31]
+                                                         sda10=sda3[ei:ei+27]
 
                                                          sda10=sda10[2:]
 
@@ -1329,7 +1329,7 @@ class compression:
                                                          
                                                         
                                                          sda17=sda17+szx2+N4
-                                                         ei=ei+31
+                                                         ei=ei+27
                                                          
                                            if sda12[0:2]=="10":
 
@@ -1511,17 +1511,17 @@ class compression:
 
                                            else:
 
-                                                  if N4<=(2*29)-1 and lenf2==32:
+                                                  if N4<=(2*25)-1 and lenf2==32:
 
                                                              N4=bin(N4)[2:]
 
                                                              lenf=len(N4)
                                                                      
                                                              szx2=""
-                                                             xc=29-lenf
+                                                             xc=25-lenf
                                                              z=0
                                                              if xc!=0:
-                                                                   if xc!=29:
+                                                                   if xc!=25:
                                                                           while z<xc:
                                                                                  szx2="0"+szx2
                                                                                  z=z+1
